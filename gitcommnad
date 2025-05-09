@@ -2,3 +2,7 @@ git init
 git status
 git commit -m "message"
 git restore
+git remote add origin url
+git remote -v
+git remote set-url origin url
+git push origin master
